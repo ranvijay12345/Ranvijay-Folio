@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranvijay Patel | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("m1NQAT553_MejOADZ");
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">MyPortfolio</div>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <nav id="mainNav">
+        <a href="#home" onclick="toggleMenu()">Home</a>
+        <a href="#about" onclick="toggleMenu()">About</a>
+        <a href="#education" onclick="toggleMenu()">Education</a>
+        <a href="#skills" onclick="toggleMenu()">Skills</a>
+        <a href="#experience" onclick="toggleMenu()">Experience</a>
+        <a href="#projects" onclick="toggleMenu()">Projects</a>
+        <a href="#achievements" onclick="toggleMenu()">Achievements</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Hi, I'm <span>Ranvijay Patel</span></h1>
+        <p class="hero-subtitle">
+          Software Engineer | Java, Spring Boot, Node.js, Microservices | AWS |
+          MySQL
+        </p>
+        <p class="hero-description">
+          Building scalable and efficient solutions. Passionate about
+          technology, automation, and continuous learning.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="cta-btn">Let's Connect</a>
+          <a
+            href="https://drive.google.com/file/d/1LC3CQyCKxSjc6cEeG81jb0Jf79JQbsYo/view?usp=sharing"
+            class="cta-btn secondary"
+            target="_blank"
+            download
+            >Get Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <img src="resources/profile.jpg" alt="Profile Picture" />
+      <p>
+        Passionate full-stack developer with 2 Year's of hands-on experience in
+        backend development, API testing, and automation. Deployed applications
+        on AWS, automated testing using Python, and actively contribute to
+        scalable and efficient applications using Java and Spring Boot, Node.js,
+        MongoDB, MySQL.
+      </p>
+    </section>
+
+    <section id="education" class="education-section">
+      <h2 class="section-title">Education</h2>
+      <div class="education-container">
+        <div class="education-card">
+          <h3>Indian Institute of Information Technology (IIIT), Guwahati</h3>
+          <p>
+            <strong>Degree:</strong> B.Tech in Computer Science and Engineering
+          </p>
+          <p><strong>Location:</strong> Guwahati, Assam</p>
+          <p><strong>Graduation:</strong> May 2023</p>
+        </div>
+
+        <div class="education-card">
+          <h3>National High School, Ankleshwar</h3>
+          <p><strong>Class:</strong> XII</p>
+          <p><strong>Location:</strong> Bharuch, Gujarat</p>
+          <p><strong>Completed:</strong> May 2017</p>
+        </div>
+
+        <div class="education-card">
+          <h3>National High School, Ankleshwar</h3>
+          <p><strong>Class:</strong> X</p>
+          <p><strong>Location:</strong> Bharuch, Gujarat</p>
+          <p><strong>Completed:</strong> May 2015</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="technical-section" id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-category-container">
+        <div class="skill-category">
+          <h3>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+              alt="C"
+            />
+            Languages
+          </h3>
+          <ul>
+            <li>• C</li>
+            <li>• C++</li>
+            <li>• Java</li>
+            <li>• Python</li>
+            <li>• SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring"
+            />
+            Frameworks & Libraries
+          </h3>
+          <ul>
+            <li>• Spring Boot</li>
+            <li>• Spring MVC</li>
+            <li>• Hibernate</li>
+            <li>• Spring Data JPA</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/6062/6062646.png"
+              alt="C"
+            />
+            Tech-Stacks
+          </h3>
+          <ul>
+            <li>• HTML</li>
+            <li>• CSS</li>
+            <li>• JavaScript</li>
+            <li>• Node.js</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+              alt="AWS"
+            />
+            Cloud & Microservices
+          </h3>
+          <ul>
+            <li>• Microservices</li>
+            <li>• Amazon EC2, AWS S3</li>
+            <li>• AWS Lambda, CloudWatch</li>
+            <li>• AWS IAM Identity</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <img
+              src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.svg"
+              alt="API"
+            />
+            APIs & Testing
+          </h3>
+          <ul>
+            <li>• RESTful APIs</li>
+            <li>• JUnit</li>
+            <li>• PyTest</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="MySQL"
+            />
+            Databases
+          </h3>
+          <ul>
+            <li>• MySQL</li>
+            <li>• MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+              alt="Linux"
+            />
+            Tools & Scripting
+          </h3>
+          <ul>
+            <li>• Git</li>
+            <li>• Jira</li>
+            <li>• Bitbucket</li>
+            <li>• Unix/Shell Scripting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="experience-grid">
+        <!-- Current Role -->
+        <div class="experience-card">
+          <h3>Software Engineer – Qualcomm</h3>
+          <p><strong>Sep 2025 – Present | Hyderabad, India</strong></p>
+          <ul>
+            <li>
+              Contributing to backend development using Java, Spring Boot, and
+              Microservices architecture.
+            </li>
+            <li>
+              Designing and testing REST APIs with focus on scalability,
+              maintainability, and integration with existing services.
+            </li>
+            <li>
+              Working with SQL databases to handle queries, data migration, and
+              optimization.
+            </li>
+            <li>
+              Collaborating in Agile/Scrum environment, participating in daily
+              stand-ups and sprint planning.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Previous Role -->
+        <div class="experience-card">
+          <h3>Software Engineer – Thinkseed Systems</h3>
+          <p><strong>Sep 2023 – Aug 2025 | Bangalore, India</strong></p>
+          <ul>
+            <li>
+              Worked with Java, Spring Boot, Hibernate, Microservices, SQL, API
+              testing, debugging, and full-stack technologies.
+            </li>
+            <li>
+              Developed and deployed scalable applications using Java and Spring
+              Boot, reducing response time by 25%.
+            </li>
+            <li>
+              Designed and integrated responsive UI components with HTML, CSS,
+              and JavaScript, ensuring seamless interaction between frontend and
+              backend services.
+            </li>
+            <li>
+              Built REST APIs and microservices using Node.js and MongoDB for
+              lightweight modules, improving scalability and faster data
+              retrieval.
+            </li>
+            <li>Deployed applications on AWS EC2, S3, and CloudWatch.</li>
+            <li>Automated API testing with Python, reducing manual effort.</li>
+            <li>
+              Implemented Subscription service for auto-suspension/resumption of
+              expired users, improving user management.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Internship -->
+        <div class="experience-card">
+          <h3>SDE Intern – Thinkseed Systems</h3>
+          <p><strong>Jun 2023 – Aug 2023 | Bangalore, India</strong></p>
+          <ul>
+            <li>
+              Developed backend using Java, Spring Boot, MySQL, and integrated
+              frontend modules with HTML, CSS, and JavaScript.
+            </li>
+            <li>
+              Implemented GET, POST, PUT, and DELETE APIs in the Spring Boot
+              application to fetch and update data from the database.
+            </li>
+            <li>
+              Developed Spring Boot RESTful APIs, configured MySQL database,
+              Beans, and dependency injection.
+            </li>
+            <li>
+              Built a small project module using Node.js and MongoDB to explore
+              ME*N stack integration with existing services.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <!-- Digital Key -->
+        <div class="project-card" onclick="toggleDetails(this)">
+          <div class="card-header">
+            <h3>Digital Key</h3>
+            <img
+              class="project-logo"
+              src="resources/digital-key.jpg"
+              alt="Digital Key"
+            />
+          </div>
+          <div class="project-details">
+            <p>
+              <strong>Tech-Stack:</strong> Java, Spring Boot, Microservices, AWS
+              Cloud
+            </p>
+            <p>
+              • Mobile device used as vehicle key. Backend maintains phone and
+              vehicle data with support for digital key sharing.
+            </p>
+          </div>
+        </div>
+
+        <!-- Med-Companion -->
+        <div class="project-card" onclick="toggleDetails(this)">
+          <div class="card-header">
+            <h3>Med-Companion</h3>
+            <img
+              class="project-logo"
+              src="resources/med-comp.jpg"
+              alt="MedCompanion Project"
+            />
+          </div>
+          <div class="project-details">
+            <p>
+              <strong>Tech-Stack:</strong> Node.js, HTML, CSS, JavaScript,
+              MongoDB.
+            </p>
+            <p>
+              • Hospital management system for online appoint ment booking,
+              doctor consult, and more.
+              <a
+                href="https://github.com/ranvijay12345/MedCompanion"
+                target="_blank"
+                class="project-link"
+              >
+                [Link]</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Inventrom Web Page -->
+        <div class="project-card" onclick="toggleDetails(this)">
+          <div class="card-header">
+            <h3>Inventrom Web Page Design</h3>
+            <img
+              class="project-logo"
+              src="resources/inventrom.png"
+              alt="Inventrom Web"
+            />
+          </div>
+          <div class="project-details">
+            <p><strong>Tech-Stack:</strong> HTML, CSS, JavaScript</p>
+            <p>• Created a web page for www.inventrom.com website.</p>
+            <p>
+              • A total of four pages Home, About, Awards, and Contact are there
+              in this website.
+              <a
+                href="https://ranvijay12345.github.io/inventron-webpage-design"
+                target="_blank"
+                class="project-link"
+              >
+                [Link]</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievement-section">
+      <h2 class="section-title">Achievements & Certifications</h2>
+
+      <div class="achievement-grid">
+        <div class="achievement-card">
+          <h3>DSA Practice</h3>
+          <p>Solved 600+ problems on GeeksforGeeks and LeetCode.</p>
+          <div class="achievement-links">
+            <a
+              href="https://www.geeksforgeeks.org/user/ranvijayid76/"
+              target="_blank"
+              >GFG Profile</a
+            >
+            <a href="https://leetcode.com/u/ranvijay123/" target="_blank"
+              >LeetCode Profile</a
+            >
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <h3>AWS Certification</h3>
+          <p>
+            Completed AWS training with hands-on experience in EC2, S3, Lambda,
+            CloudWatch, and foundational architecture.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1UoKjb0pUxhphJWqOL1ftlBPYI6Tz0bru/view"
+            target="_blank"
+            >View Certificate</a
+          >
+        </div>
+
+        <div class="achievement-card">
+          <h3>Web Development Training</h3>
+          <p>Completed Web Development training at Inventrom Pvt. Ltd.</p>
+          <a
+            href="https://drive.google.com/file/d/1ZeVM72CALote76oFDMu3siWEEC1JfpxK/view"
+            target="_blank"
+            >View Certificate</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Reach Out</h3>
+          <p>
+            If you'd like to discuss a project, opportunity, or just say hello,
+            feel free to get in touch!
+          </p>
+          <ul>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:ranvijayid76@gmail.com">ranvijayid76@gmail.com</a>
+            </li>
+            <li>
+              <strong>Phone:</strong>
+              <a href="tel:+917800082899">+917800082899</a>
+            </li>
+            <li>
+              <strong>GitHub:</strong>
+              <a href="https://github.com/ranvijay12345" target="_blank"
+                >github.com/ranvijay12345</a
+              >
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/ranvijay722" target="_blank"
+                >linkedin.com/in/ranvijay722</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <h3>Send a Message</h3>
+          <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div
+        style="
+          max-width: 1000px;
+          margin: auto;
+          padding: 1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.5rem;
+        "
+      >
+        <p>Made with ❤️ by Ranvijay Patel, © 2025 All rights reserved.</p>
+        <div style="display: flex; gap: 1rem">
+          <a
+            href="https://github.com/ranvijay12345"
+            target="_blank"
+            class="social-media"
+            >GitHub</a
+          >
+          |
+          <a
+            href="https://www.linkedin.com/in/ranvijay722"
+            target="_blank"
+            class="social-media"
+            >LinkedIn</a
+          >
+          |
+          <a
+            href="https://www.instagram.com/ranvijay722"
+            target="_blank"
+            class="social-media"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          emailjs.sendForm("service_mbc1f29", "template_0csc4te", this).then(
+            function () {
+              alert("Message sent successfully!");
+            },
+            function (error) {
+              alert("Failed to send message.\n" + JSON.stringify(error));
+            }
+          );
+        });
+
+      // Show the button when user scrolls down 100px
+      window.onscroll = function () {
+        const scrollBtn = document.getElementById("scrollTopBtn");
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          scrollBtn.style.display = "block";
+        } else {
+          scrollBtn.style.display = "none";
+        }
+      };
+
+      // Smooth scroll to top
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <!-- Scroll to Top Button -->
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">
+      ↑
+    </button>
+  </body>
+</html>
